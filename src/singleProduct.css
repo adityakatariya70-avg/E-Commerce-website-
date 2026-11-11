@@ -1,0 +1,136 @@
+body{
+    background-color: #ebad55
+}
+.text {
+    text-align: center;
+    color: red;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 30px 0;
+    letter-spacing: 0.5px;
+}
+
+.main-box-2 {
+    width: 90%;
+    max-width: 1300px;
+    min-height: 650px;
+    margin: 30px auto;
+    display: flex;
+    background-color: #FFFDF8;
+    border: 1px solid #D6C4AE;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(65, 45, 25, 0.12);
+}
+
+.left-2 {
+    width: 50%;
+    padding: 25px;
+    background-color: #F5EFE6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.image-8 {
+    width: 100%;
+    height: 450px;
+    background-color: #FFFDF8;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid #E4D8C9;
+}
+
+.image-8 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 15px;
+    transition: transform 0.4s ease;
+}
+
+.image-8 img:hover {
+    transform: scale(1.07);
+}
+
+.desc {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #FFFDF8;
+    border-radius: 12px;
+    border: 1px solid #E4D8C9;
+    color: #655548;
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: left;
+}
+
+
+.right-2 {
+    width: 50%;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #FFFDF8;
+}
+
+.right-2 span:first-child {
+    background-color: #E3F3E5;
+    color: #28743B;
+    padding: 7px 18px;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.right-2 span:first-child h5 {
+    margin: 0;
+}
+
+
+.right-2 h3:first-of-type {
+    color: #3E3025;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+.right-2 h5 {
+    color: #79634D;
+    font-size: 16px;
+    margin: 12px 0;
+}
+
+
+.right-2 > span:nth-of-type(2) {
+    color: #6F4E37;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+
+.right-2 h3:nth-of-type(2) {
+    color: #D35400;
+    font-size: 17px;
+    background-color: #FFF0E4;
+    padding: 9px 15px;
+    border-radius: 7px;
+}
+
+
+.right-2 h5:nth-of-type(n+3) {
+    width: 100%;
+    padding: 13px;
+    background-color: #F5EFE6;
+    border-radius: 8px;
+    color: #5B4939;
+    border-bottom: 1px solid #E1D3C2;
+}
+
