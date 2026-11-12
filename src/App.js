@@ -5,7 +5,7 @@ import Singleproduct from './Singleproduct';
 function App(){
 
     return (
-    <BrowserRouter basename="/E-Commerce-website-">
+    <BrowserRouter basename="/E-Commerce-website-/">
 
         <Routes>
        <Route path="/" element={<Home/>}/>

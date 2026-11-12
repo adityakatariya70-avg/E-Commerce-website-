@@ -36,7 +36,10 @@ body {
   background-color: #6F4E37;
 }
 
-
+.left li:hover{
+  background-color: white;
+  list-style: underline;
+}
 .main-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
